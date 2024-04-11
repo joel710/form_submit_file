@@ -1,0 +1,45 @@
+Formulaire d'Upload de Fichier
+'''html
+<div class="container" >
+    <form class="form">
+      <span class="form-title">Upload your file</span>
+      <p class="form-paragraph">
+          File should be an image
+        </p>
+       <label for="file-input" class="drop-container">
+      <span class="drop-title">Drop files here</span>
+      or
+      <input type="file" accept="image/*" required="" id="file-input">
+    </label>
+    </form>
+</div>
+Formulaire de Contact
+<div class="contact-form" style="width: 500px;">
+    <span class="heading">Informations de l'animé</span>
+    <form>
+        <label for="name">Nom de l'anime:</label>
+        <input type="text" required="">
+        <label for="name">genre:</label>
+        <input type="text" required="">
+        <label for="name">auteur:</label>
+        <input type="text" required="">
+        <label for="email">année:</label>
+        <input type="text" required="">
+        <label for="name">Note(ex: 5/5):</label>
+        <input type="email" id="email" name="email" required="">
+        <label for="message">Description:</label>
+        <textarea id="message" name="message" required=""></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+'''
+Utilisation d'Emojis
+Vous pouvez ajouter des emojis pour rendre votre documentation plus attrayante. Voici quelques exemples d'emojis que vous pouvez utiliser:
+
+:clipboard: - Pour les titres
+:file_folder: - Pour les formulaires
+:camera: - Pour les fichiers image
+:pencil: - Pour les champs de texte
+:email: - Pour les champs d'email
+:speech_balloon: - Pour les zones de texte
+:arrow_right: - Pour les boutons
